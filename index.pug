@@ -1,0 +1,29 @@
+doctype html
+html(lang='nl')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible', content='ie=edge')
+        title #{title}
+        :style
+            body
+                font-family: monospace
+                font-size: 2em
+                > p
+                    margin: 1em
+                > ul > li
+                    margin: 1em 1em 1em 0
+                    overflow: hidden
+                    text-overflow: ellipsis
+                    > a
+                        color: #000
+                        white-space: nowrap
+                        &:hover
+                            font-weight: bold
+                            margin-left: 1em
+    body
+        p #{slogan}
+        ul
+            each url in urls 
+                li
+                    a(href='https://' + url) #{url}
