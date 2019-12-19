@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/cybercrimineel
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://cybercrimineel.github.io
+  * I am cybercrimineel (https://keybase.io/cybercrimineel) on keybase.
+  * I have a public key with fingerprint DDEC 54BB ED79 4EEE E46B  1CDC 08BF 8A9B FE2C 6275
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101a0bf84b63405f723a42d715564bcd56967ccc0b979830054132fdf7523df38130a",
+      "fingerprint": "ddec54bbed794eeee46b1cdc08bf8a9bfe2c6275",
+      "host": "keybase.io",
+      "key_id": "08bf8a9bfe2c6275",
+      "kid": "0101a0bf84b63405f723a42d715564bcd56967ccc0b979830054132fdf7523df38130a",
+      "uid": "1c71756afdc1f4e4e0b4cc126e7fc919",
+      "username": "cybercrimineel"
+    },
+    "service": {
+      "hostname": "cybercrimineel.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1576759122,
+  "expire_in": 157680000,
+  "prev": "f3f457c64bba0a1c02fe2c082727e5cfb69d17b5b0487f3b56b098d7a67d8901",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUltMHFUY3kWodQtIJelL0YYRHoRlOXM9M1ONF0gQK9vQAC22ZJ1z5swysMxu
+d2a3bFewoUZLWxIaq8FeYmxQWyttgyG0YjTWS0xtoLGNmmiJtUixXIpI42JVnCn2
+SR89LyfnP9/3/d//5e/OusvlcS//aPfBv7wo5v7yZ+RquBWuS1IorCYoOUk1k9sX
+CanEtALNukrJFKABrQCkiRwSWA7wGmRYhWNUSPO8wCGs8oIkQIwxQBKURBYAnqNZ
+RlM1yDOsqrEizQKF8lKabgRJNBLVDcuWVVWCeQ4hokKJI/bhBERjFQPRbqVISCMM
+FhjI28TGsOkwbHNIMYlPD9s1+xFYsvdv/P/sO3ZbjsaQhrygaCqmNY5wBCAOY5oR
+CNSwREsO0CRRQ2khNhonEIniqN6iG4SEqDYvZf/FdUyceJ15/hPnC+pWYwwtTRiJ
+hq0wDodsVKNlRUzZUbESEYe2jaDAP4IBpBuqnazNiJOoqYcNSqZtJLZ0pwPNQwHy
+Es0wXoq0RvQoCejGUlkEoAkApxGJ25oaq3E8xHY0SAEKjQHjRApEBjKQ8FhDgqTS
+EPEIcCLUWMQLCEiiChUBqqIEaMqZcasRpmTe9qkEbUlTDxqKFYsSqs3T6X4v3eX2
+uO5flZ9+eapmaDrhnxlrzvv+zjZmpDmr6PLck3Oncmj9ij9zz83NpxlJ80WqpnC2
+trS69DNhqj53nfjOAwuLGw7LmVnnXyguHNuQWyV9Gmzv7C/qbnyuquSiu2tjomny
+9478fcVfbOzVuibSfPFHQ3HdM1i5Z9PcleWzb6/45peT28d2vFySOtzgq+3PHj9y
+/tm68Rurqjt+PNUSiaGekbJFedd9X0+l76zvfbDpgFAxt9Jd7L/SJ98dWuj0j17w
+97Ssn5QLLq2eRxVrjmdM7/1N73tmV+nV1PHO4fLNj19b99a+T9jFx17Jr9199P2c
+kfLQ2Z3t/v4Rrb4gdeyhZZkn126uHt4jRLIjy/jTwzfr+pOj5rm8A+/6Vg88XV7Z
+07bf2zb++sWOQRdcq26dlnvn5e6Brx7JOTqVLj3xU/uOE2nXPi5saD3hKitq5c2S
+LUWXnzp99cxo2Ws/dAmz119KHPm8/JDW9/zZW9czaz68t2TvTJX5Zs7MxB/DNyZe
+3T70xuzApW2pC4OTyU0LGUPWw9/x2R+kfl3T3Z5f6T+YrPB3RAryam8e+zaLe/Jv
+=mToZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cybercrimineel
+
+==================================================================
