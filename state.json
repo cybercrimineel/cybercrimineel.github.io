@@ -1,6 +1,4 @@
 {
-    "title": "010100111001",
-    "slogan": "ik doe niet echt aan webdesign",
     "media": {
         "GitHub": "github.com/cybercrimineel",
         "Instagram": "www.instagram.com/cybercrimineel",
@@ -10,5 +8,8 @@
         "Twitch": "twitch.tv/cybercrimineel",
         "Twitter": "twitter.com/leenimircrebyc",
         "YouTube": "www.youtube.com/channel/UCvCmlU-Mk1nn0jwaL3RDYeQ"
-    }
+    },
+    "gtag": "UA-151600454-2",
+    "slogan": "ik doe niet echt aan webdesign",
+    "title": "010100111001"
 }
