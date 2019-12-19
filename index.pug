@@ -24,6 +24,6 @@ html(lang='nl')
     body
         p #{slogan}
         ul
-            each url in urls 
+            each url, name in media
                 li
-                    a(href='https://' + url) #{url}
+                    a(href='https://' + url) #{name}
