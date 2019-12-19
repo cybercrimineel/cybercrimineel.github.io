@@ -1,12 +1,14 @@
 {
     "title": "010100111001",
     "slogan": "ik doe niet echt aan webdesign",
-    "urls": [
-        "github.com/cybercrimineel",
-        "keybase.io/cybercrimineel",
-        "twitch.tv/cybercrimineel",
-        "www.instagram.com/cybercrimineel/",
-        "www.reddit.com/user/cybercrimineel",
-        "www.youtube.com/channel/UCvCmlU-Mk1nn0jwaL3RDYeQ"
-    ]
+    "media": {
+        "GitHub": "github.com/cybercrimineel",
+        "Instagram": "www.instagram.com/cybercrimineel",
+        "Keybase": "keybase.io/cybercrimineel",
+        "Reddit": "www.reddit.com/user/cybercrimineel",
+        "Snapchat": "www.snapchat.com/add/leenimircrebyc",
+        "Twitch": "twitch.tv/cybercrimineel",
+        "Twitter": "twitter.com/leenimircrebyc",
+        "YouTube": "www.youtube.com/channel/UCvCmlU-Mk1nn0jwaL3RDYeQ"
+    }
 }
