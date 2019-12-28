@@ -1,15 +1,26 @@
-.DEFAULT: index.html
-.PHONY: update
+DEP := index.pug render.js package.json state.json
+OBJ := node_modules package-lock.json
+TGT := index.html
 
-FIRST := package.json
-SECOND := index.pug node_modules render.js state.json
+.DEFAULT: all
+.PHONY: all clean mostlyclean rebuild update
 
-index.html: $(SECOND)
-	node render.js > index.html
+all: $(TGT)
 
-node_modules: $(FIRST)
+clean: mostlyclean
+	rm -f -r $(OBJ)
+
+mostlyclean:
+	rm -f -r $(TGT)
+
+rebuild: mostlyclean
+	make $(TGT)
+
+update: $(OBJ)
+	npm update
+
+$(OBJ): $(DEP)
 	npm install
 
-update: $(FIRST) $(SECOND)
-	rm -f index.html
-	make index.html
+index.html: $(OBJ)
+	node render.js > $@
