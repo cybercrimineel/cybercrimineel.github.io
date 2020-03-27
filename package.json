@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "pug": "^2.0.4",
-    "sass": "^1.23.7",
-    "uglify-js": "^3.7.2"
+    "sass": "^1.26.3",
+    "uglify-js": "^3.8.0"
   }
 }
