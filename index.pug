@@ -6,11 +6,17 @@ html(lang='nl')
         meta(http-equiv='X-UA-Compatible', content='ie=edge')
         title #{title}
         script(src='https://www.googletagmanager.com/gtag/js?id=' + gtag)
+
         :script
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
+
+            window.gtag = window.gtag || function () {
+                dataLayer.push(arguments);
+            }
+
             gtag('js', new Date());
-            gtag('config', '${state.gtag}');
+            gtag('config', document.querySelector('script').src.slice(-14));
+
         :style
             body
                 font-family: monospace
@@ -27,6 +33,7 @@ html(lang='nl')
                         &:hover
                             font-weight: bold
                             margin-left: 1em
+
     body
         p #{slogan}
         ul

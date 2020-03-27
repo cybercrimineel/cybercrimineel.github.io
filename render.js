@@ -4,7 +4,7 @@ require('pug').renderFile('./index.pug', Object.assign(state, {filters: {
     'script': function (text, options) {
         delete options.filename;
         return '<script>' + require('uglify-js').minify(
-            eval('`' + text + '`'),
+            text,
             options
         ).code + '</script>';
     },
