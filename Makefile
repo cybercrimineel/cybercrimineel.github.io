@@ -3,7 +3,7 @@ OBJ := node_modules package-lock.json
 TGT := index.html
 
 .DEFAULT: all
-.PHONY: all clean mostlyclean rebuild
+.PHONY: all clean mostlyclean rebuild update
 
 all: $(TGT)
 
