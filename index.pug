@@ -19,20 +19,27 @@ html(lang='nl')
 
         :style
             body
+                background-color: #fff
                 font-family: monospace
-                font-size: 2em
+
                 > p
-                    margin: 1em
-                > ul > li
-                    margin: 1em 1em 1em 0
-                    overflow: hidden
-                    text-overflow: ellipsis
-                    > a
-                        color: #000
-                        white-space: nowrap
-                        &:hover
-                            font-weight: bold
-                            margin-left: 1em
+                    color: #000
+                    font-size: 2em
+
+                > ul
+
+                    > li
+                        margin-top: 1.5em
+                        overflow: hidden
+                        text-overflow: ellipsis
+
+                        > a
+                            color: #000
+                            font-size: 3em
+                            white-space: nowrap
+
+                            &:hover
+                                font-weight: bold
 
     body
         p #{slogan}
