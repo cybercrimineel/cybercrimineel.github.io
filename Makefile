@@ -3,7 +3,7 @@ OBJ := node_modules package-lock.json
 TGT := index.html
 
 .DEFAULT: all
-.PHONY: all clean mostlyclean rebuild update
+.PHONY: all clean mostlyclean rebuild
 
 all: $(TGT)
 
@@ -20,7 +20,7 @@ update: $(OBJ)
 	npm update
 
 $(OBJ): $(DEP)
-	npm install
+	test -d node_modules || npm install
 
 index.html: $(OBJ)
 	node render.js > $@
