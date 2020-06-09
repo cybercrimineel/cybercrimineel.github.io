@@ -1,0 +1,43 @@
+body {
+    background-color: #000;
+    font-family: monospace;
+    font-size: 5vw;
+    margin: 30vw 0 0 0;
+    padding: 0;
+
+    > a {
+        border: 0.5vw solid #fff;
+        box-shadow: 0 0 1vw #fff;
+        color: #fff;
+        display: inline-block;
+        margin: 5vw 0 0 10vw;
+        padding: 1.5vw;
+        text-align: center;
+        text-decoration: none;
+        width: 77vw;
+
+        &:hover {
+            box-shadow: 0 0 2vw #fff;
+        }
+
+    }
+
+    > img:nth-child(1) {
+        border-bottom: 0.5vw solid #fff;
+        height: 20vw;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+    }
+
+    > img:nth-child(2) {
+        border-radius: 50%;
+        border: 0.5vw solid #fff;
+        margin-left: 50%;
+        position: absolute;
+        top: 5vh;
+        transform: translateX(-50%);
+        width: 20vw;
+    }
+
+}
