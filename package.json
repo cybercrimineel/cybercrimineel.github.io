@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "parcel build --no-source-maps -d . -o index markup.pug",
-    "clean": "bash -c 'rm -f *.{css,js,html}'",
+    "clean": "bash -c 'rm -f *.*.{css,jpg,js} index.html'",
     "serve": "parcel serve -d .serve -p 8080 markup.pug"
   }
 }
