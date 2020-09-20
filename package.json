@@ -1,14 +1,13 @@
 {
-  "dependencies": {},
   "devDependencies": {
     "parcel": "^1.12.4",
-    "pug": "^2.0.4",
-    "sass": "^1.26.5",
-    "typescript": "^3.9.3"
+    "pug": "^3.0.0",
+    "sass": "^1.26.11",
+    "typescript": "^4.0.3"
   },
   "scripts": {
-    "build": "parcel build --no-source-maps -d . -o index markup.pug",
-    "clean": "bash -c 'rm -f *.*.{css,jpg,js} index.html'",
-    "serve": "parcel serve -d .serve -p 8080 markup.pug"
+    "build": "parcel build --log-level 4 --no-source-maps --public-url /dist src/markup.pug",
+    "clean": "rm -r dist",
+    "serve": "node serve.js"
   }
 }
